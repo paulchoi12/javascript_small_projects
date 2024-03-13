@@ -1,0 +1,27 @@
+.nav {
+    display: flex;
+}
+.nav-center {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    border-style: solid;
+    border-color: black;
+    justify-content: space-between;
+
+}
+.nav-links {
+    text-align: center;
+    list-style-type: none;
+    display: contents;
+}
+.nav-links li {
+    float: left;
+    padding-inline: 10px;
+}
+.nav-links li a {
+    display: block;
+    padding: 8px;
+
+}
