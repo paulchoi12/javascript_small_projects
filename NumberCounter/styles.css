@@ -1,0 +1,32 @@
+main{
+    display: block;
+
+}
+button{
+    width: 50px;
+    display: block;
+    background-color: azure;
+    border: 3px solid 	rgb(87, 143, 144);
+    border-radius: 50px;
+    box-shadow: 0.9px 0.9px;
+}
+
+#counter{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    padding: 10%;
+    border: black 2px solid;
+    background-color: cadetblue;
+    border-radius: 25px;
+    box-shadow: 3px 3px;
+}
+
+#number {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin: 0;
+
+}
