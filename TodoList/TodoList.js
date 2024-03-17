@@ -32,8 +32,9 @@ closeItem.addEventListener("click",()=>{
     closeItem.parentNode.style.display = "none"
 })
 
-console.log(todo)
-todo.value = none
+
+// resets the value to none in submit button
+todo.value = ""
 })
 
 
