@@ -1,0 +1,12 @@
+This project took more than it should!! 
+The challenge of this project was how to manipulate
+html documents and its elements, especially createing
+and deleteing.
+
+I have successfully made a todo list that could create
+and delete sentences, but the issue is the lack of
+being able to save the list into the local storage so
+it does not reset when the website is opened again.
+
+next project will be more about linking local storage
+to the website so that a program can be used more than once.
