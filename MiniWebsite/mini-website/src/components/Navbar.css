@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white
+
+}
+
+.navbar-container{
+    display: flex;
+    text-align: center;
+
+}
+
+.nav-menu {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
