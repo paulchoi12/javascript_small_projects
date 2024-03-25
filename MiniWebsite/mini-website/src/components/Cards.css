@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
-    background: white
+    background: white;
+    height: 95vh;
 }
 h1 {
     text-align: center;

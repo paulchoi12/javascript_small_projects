@@ -1,10 +1,9 @@
 import React from 'react'
+import '../../App.css'
 
 function Cambridge() {
   return (
-    <div className='title'>
-      <h1>Cambridge</h1>
-    </div>
+    <h1 className='cambridge'>Cambridge</h1>
   )
 }
 
