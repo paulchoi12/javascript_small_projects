@@ -10,12 +10,36 @@ function Cards() {
                 <ul className='cards-items'>
                 <CardItem
                 src="/images/Cambridge.jpeg"
+                text="Into the parks of Cambridge!"
+                label="Cambridge"
+                path="/Cambridge"
+                />
+                <CardItem
+                src="/images/Chester-2.jpeg"
+                text="Into the streets of Chester!"
+                label="Chester"
+                path="/Chester"
+                />
+                <CardItem
+                src="/images/Cambridge.jpeg"
                 text="Look at my Cambridge Photos!"
                 label="Cambridge"
                 path="/Cambridge"
                 />
-
-                
+                </ul>
+                <ul className='cards-items'>
+                <CardItem
+                src="/images/Cambridge.jpeg"
+                text="Look at my Cambridge Photos!"
+                label="Cambridge"
+                path="/Cambridge"
+                />
+                <CardItem
+                src="/images/Cambridge.jpeg"
+                text="Look at my Cambridge Photos!"
+                label="Cambridge"
+                path="/Cambridge"
+                />
                 </ul>
             </div>
         </div>

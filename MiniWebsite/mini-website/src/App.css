@@ -7,7 +7,8 @@
 
 .home,
 .about,
-.cambridge{
+.cambridge,
+.Chester{
     display: flex;
     height: 90vh;
     align-items: center;
@@ -19,6 +20,14 @@
     background-image: url('../public/images/JesusGreen.jpeg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 100px;
+}
+.Chester {
+    background-image: url('../public/images/Chester-1.jpeg');
+    background-position: center;
+    background-size: stretch;
     background-repeat: no-repeat;
     color: white;
     font-size: 100px;

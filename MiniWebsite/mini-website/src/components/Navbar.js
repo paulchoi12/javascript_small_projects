@@ -6,7 +6,7 @@ function Navbar() {
     <div className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='nav-links'>
-                <h4>Mini-Website</h4>
+                <h1>Mini-Website</h1>
             </Link>
             <ul className='nav-menu'>
                 <li className='nav-item'>
