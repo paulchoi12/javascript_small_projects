@@ -20,26 +20,6 @@ function Cards() {
                 label="Chester"
                 path="/Chester"
                 />
-                <CardItem
-                src="/images/Cambridge.jpeg"
-                text="Look at my Cambridge Photos!"
-                label="Cambridge"
-                path="/Cambridge"
-                />
-                </ul>
-                <ul className='cards-items'>
-                <CardItem
-                src="/images/Cambridge.jpeg"
-                text="Look at my Cambridge Photos!"
-                label="Cambridge"
-                path="/Cambridge"
-                />
-                <CardItem
-                src="/images/Cambridge.jpeg"
-                text="Look at my Cambridge Photos!"
-                label="Cambridge"
-                path="/Cambridge"
-                />
                 </ul>
             </div>
         </div>

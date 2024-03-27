@@ -45,14 +45,14 @@
 }
 
 .action-btns button {
-  font-size: 150px;
+  font-size: 15px;
   font-weight: 500;
   color: black;
   background-color: #99c6cf;
   border-radius: 6px;
   padding: 10px 25px;
   cursor: pointer;
-  transition: all 0.4 ease;
+  transition: all 0.5 ease;
 }
 
 .action-btns button :hover{

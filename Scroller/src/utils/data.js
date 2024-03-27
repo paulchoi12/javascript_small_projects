@@ -1,4 +1,4 @@
-export const SAMPLE_DATA = [
+ export const SAMPLE_DATA = [
     {id: "01", color: "#014f5e"},
     {id: "02", color: "#015a6b"},
     {id: "03", color: "#16679"},
@@ -9,3 +9,4 @@ export const SAMPLE_DATA = [
     {id: "08", color: "#67aab6"},
     {id: "09", color: "#80b8c3"},
 ];
+

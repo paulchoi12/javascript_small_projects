@@ -1,18 +1,19 @@
 
 import { useRef, useState } from 'react'
 import './App.css'
-import { SAMPLE_DATA } from "./utils/data";
+import {SAMPLE_DATA} from './utils/data';
+
 
 const ITEM_WIDTH = 200;
 
 function App() {
-  const [scrollPosition, setScrollPosition] = useState[0];
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const containerRef =  useRef();
 
   // function to handle scrolling when the button is clicked
   const handleScroll = (scrollAmount) =>{
-    
+
   //Calculate the new scroll position
   const newScrollPosition = scrollPosition + scrollAmount;
 
@@ -21,7 +22,7 @@ function App() {
     
   //Access the container element and set its scrollLeft property
  containerRef.current.scrollLeft = newScrollPosition;
-  }
+  };
 
   
 
@@ -35,13 +36,11 @@ function App() {
       }}
       >
         <div className='content-box'>
-          {SAMPLE_DATA.map((item)=>{
-            <div className='card' style={{backgroundColor: item.color}}>
+          {SAMPLE_DATA.map((item)=> {
+            <div className='card' style={{ backgroundColor: item.color}}>
               <p>{item.id}</p>
             </div>
           })}
-
-
         </div>
       </div>
 
