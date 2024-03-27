@@ -5,7 +5,7 @@ function Cambridge() {
   return (
     <div className='cambridge'>
       <div className='first-page'>
-        <h1 className='cambridge'>Cambridge</h1>
+        <h4 className='cambridgeText'>Cambridge</h4>
       </div>
       <div>
         

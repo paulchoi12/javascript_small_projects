@@ -5,7 +5,7 @@ function Chester() {
   return (
     <div className='Chester'>
         <div className='first-page'>
-        <h1 className='Chester'>Chester</h1>
+        <h4 className='ChesterText'>Chester</h4>
         </div>
         <div>
         
