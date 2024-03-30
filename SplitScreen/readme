@@ -1,0 +1,3 @@
+This is a component that divides the page into two vertically! It is particularly useful to create a website that needs to divide two different contents such as an image and text.
+
+The media Query is added to be more flexible on smaller screens such as smartphones and tablets!
