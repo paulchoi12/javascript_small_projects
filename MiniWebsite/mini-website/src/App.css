@@ -18,16 +18,8 @@
 }
 
 .cambridge {
-    background-image: url('../public/images/JesusGreen.jpeg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
     color: white;
     font-size: 100px;
-}
-.cambridge > img {
-    transition: 2s ease all;
 }
 
 .Chester {

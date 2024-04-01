@@ -5,7 +5,7 @@ import Home from './components/Pages/Home.js';
 import Navbar from './components/Navbar';
 import About from './components/Pages/About.js';
 import './App.css'
-import Cambridge from './components/Pages/Cambridge.js';
+import Cambridge from './components/Pages/Cambridge/Cambridge.js';
 import Chester from './components/Pages/Chester.js';
 function App() {
   return (
