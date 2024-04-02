@@ -32,9 +32,11 @@
 }
 
 .image-container > img{
-    height: 50vh;
+    height: 38vh;
     padding: 10px;
     /* border: 5px solid rgb(171 171 255); */
     box-shadow: 5px 5px 5px rgb(171 171 255 /70%);
     border-radius: 15px;
+    object-fit: cover;
+
 }
