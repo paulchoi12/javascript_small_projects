@@ -1,0 +1,51 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 20px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.header span {
+  font-size: 20px;
+}
+
+.header ul {
+  display: flex;
+  gap:  20px;
+}
+
+.header ul a {
+  text-decoration: none;
+  border: 1.5px solid #555;
+  padding: 5px 10px;
+  color: #333;
+}
+
+.component {
+  font-size: 30px;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background: rgb(214, 233, 135);
+}
+
+.about {
+  background: rgb(115, 139, 243);
+}
+
+.contact {
+  background: palevioletred;
+}
