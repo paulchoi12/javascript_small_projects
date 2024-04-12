@@ -2,8 +2,11 @@
 import './App.css';
 
 import { BrowserRouter, NavLink, Route, Routes  } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
+
+// This is where the magic happens
+import { motion, AnimatePresence } from "framer-motion";
+
 
 
 
@@ -14,6 +17,7 @@ function LocationProvider({ children }) {
 function RoutesWithAnimation() {
   const location = useLocation();
   console.log(location)
+  console.log(location.key)
 
   return (
     <Routes location={location} key={location.key}>

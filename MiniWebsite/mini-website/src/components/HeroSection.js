@@ -1,12 +1,18 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 import './HeroSection.css'
+import {routeVariants, childVariants} from './Variants'
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <motion.div 
+    variants={routeVariants}
+      initial="initial"
+      animate="final"
+    className='hero-container'>
       <img className='hero-image' src='/images/lamp.jpeg' alt='lamp'/>
-        <h1>Travel Diary</h1>
-        <p>Places I've been to</p>
-    </div>
+        <motion.h1 variants={childVariants} initial='initial' animate="final">Travel Diary</motion.h1>
+        <motion.p variants={childVariants} initial='initial' animate="final">Places I've been to</motion.p>
+    </motion.div>
   )
 }
 
