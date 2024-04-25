@@ -5,16 +5,31 @@
   text-align: center;
 }
 
-.app {
+
+
+.boxes {
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxes > ul {
   display: flex;
-
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-h1 {
-  background-color: blueviolet;
+.boxes ul li {
+  margin-top: 30rem;
 }
+
 
 .box {
-  display: flex;
-  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box > h1 {
+  background-color: blueviolet;
+
 }
