@@ -1,9 +1,35 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./Cards.css"
+
+//framer-motion 
+import {motion, useAnimation} from 'framer-motion'
+import { useEffect } from 'react'
+import { useInView } from 'react-intersection-observer'
+import { cardVariants } from './Variants'
+
 
 function CardItem(props) {
+  const control= useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(()=>{
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden")
+    }
+  }, [control, inView]);
+
   return (
-    <div>
+    <motion.div
+      className='card'
+      ref={ref}
+      variants={cardVariants}
+      initial="hidden"
+      animate={control}
+      style={{border: 0}}
+    >
       <li className='cards-item'>
         <Link className='cards-item-link' to={props.path}>
             <figure className='cards-item-pic-wrap' data-category={'props.label'}>
@@ -16,7 +42,7 @@ function CardItem(props) {
             </div>
         </Link>
       </li>
-    </div>
+    </motion.div>
   )
 }
 

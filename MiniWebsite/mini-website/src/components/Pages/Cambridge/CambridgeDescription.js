@@ -11,7 +11,7 @@ function CambridgeDescription() {
                 <p>
                     This is Cambridge! Where we studied and had charitable memories
                     <br/>
-                    JesusGreen is one of three main parks around Cambridge, and it is regularly maintained by people.
+                    JesusGreen is one of three main parks around Cambridge, and it is regularly maintained by the council.
                 </p>
                 <div className='image-container'>
                     <img src='./images/JesusGreen-1.jpeg' alt='image of Cambridge'></img>

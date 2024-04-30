@@ -3,6 +3,7 @@
     background: white;
     height: 100vh;
 }
+
 h1 {
     text-align: center;
 }
@@ -24,6 +25,8 @@ h1 {
     margin: 24px;
     display: flex;
 }
+
+
 
 
 .cards-item {
