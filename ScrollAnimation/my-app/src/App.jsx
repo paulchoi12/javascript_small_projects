@@ -19,6 +19,8 @@ function App() {
   /*Box component*/
 const Box = () => {
   const control = useAnimation();
+
+  //useInView from react-intersection-observer points to the location of the object in a webpage.
   const [ref, inView] = useInView();
 
   useEffect(() => {
@@ -30,6 +32,7 @@ const Box = () => {
     }
   }, [control, inView]);
 
+
   return (
     <motion.div 
       className="box"
@@ -37,6 +40,7 @@ const Box = () => {
       variants={boxVariant}
       initial="hidden"
       animate={control}
+      //add style={{border:0}} here to delete borders
     >
       <h1>Box</h1>
     </motion.div>

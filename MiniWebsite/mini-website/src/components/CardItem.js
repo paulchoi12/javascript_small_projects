@@ -28,6 +28,7 @@ function CardItem(props) {
       variants={cardVariants}
       initial="hidden"
       animate={control}
+      //added style={{border:0}} to delete borders
       style={{border: 0}}
     >
       <li className='cards-item'>
