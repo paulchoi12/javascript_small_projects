@@ -9,9 +9,14 @@ const cardVariants = {
     hidden: {opacity: 0, scale: 0},
 }
 
+
+
 function Card(props) {
     const control= useAnimation();
     const [ref, inView] = useInView();
+
+
+    
 
     useEffect(()=>{
         if (inView) {
@@ -38,18 +43,25 @@ function Card(props) {
             gridRowEnd: 'span 45'
         }
     }
+
+
+
     return (
-        <motion.div 
-        className='card'
-        ref={ref}
-        variants={cardVariants}
-        initial="hidden"
-        animate={control}
-        style={{
-            ...styles.card,
-            ...styles[props.size]
-        }}>
-        </motion.div>
+        
+            <motion.div 
+            className='card'
+            ref={ref}
+            variants={cardVariants}
+            initial="hidden"
+            animate={control}
+            
+            style={{
+                ...styles.card,
+                ...styles[props.size]
+            }}>
+            <img src={props.src} alt='places' ></img>
+            </motion.div>
+ 
     )
 }
 
