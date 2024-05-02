@@ -45,6 +45,15 @@ function App() {
       <Card size="small" src="/Photos/Conwy_23.jpeg"/>
       <Card size="large" src="/Photos/Conwy_24.jpeg"/>
       <Card size="small" src="/Photos/Conwy_25.jpeg"/>
+      <Card size="large" src="/Photos/Conwy_26.jpeg"/>
+      <Card size="small" src="/Photos/Conwy_27.jpeg"/>
+      <Card size="small" src="/Photos/Conwy_28.jpeg"/>
+      <Card size="large" src="/Photos/Conwy_29.jpeg"/>
+      <Card size="small" src="/Photos/Conwy_30.jpeg"/>
+      <Card size="large" src="/Photos/Conwy_31.jpeg"/>
+      <Card size="small" src="/Photos/Conwy_32.jpeg"/>
+      <Card size="small" src="/Photos/Conwy_33.jpeg"/>
+      <Card size="large" src="/Photos/Conwy_34.jpeg"/>
     </div>
   );
 }
