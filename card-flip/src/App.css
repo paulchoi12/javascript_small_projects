@@ -1,0 +1,39 @@
+.App {
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  width: 20rem;
+  height: 20rem;
+  flex-direction: column;
+  border-radius: 15px;
+  border: solid black 3px;
+}
+
+.boxItemCover {
+  display: flex;
+  justify-content: center;
+  height: 95%;
+}
+
+.boxItemCover ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.itemImg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}

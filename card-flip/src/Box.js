@@ -6,7 +6,7 @@ function Box(props) {
       <div className='boxItemCover'>
         <ul className='item'>
             <li className='itemImg'>
-                <img src={props.src}></img>
+                <img src={props.src} alt='place'></img> 
             </li>
             <li className='itemText'>
                 <h1>{props.Text}</h1>
@@ -17,4 +17,4 @@ function Box(props) {
   )
 }
 
-export default box
+export default Box
