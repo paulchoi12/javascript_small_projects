@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "./Box.css"
 function Box(props) {
   return (
     <div className='box'>
       <div className='boxItemCover'>
-        <ul className='item'>
+        <ul className='boxItem'>
             <li className='itemImg'>
                 <img src={props.src} alt='place'></img> 
             </li>
