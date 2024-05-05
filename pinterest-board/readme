@@ -1,3 +1,8 @@
 This component will be used in each pages to showcase the photos that me and my partner took during our travels around the UK! It is named PinterestBoard because it will use the similar format! I added some scroll animation and pictures taken from my trips from Conwy and uploaded them into the page! 
 
 This is going to be the bluePrint for my Travel Diary Website's Gallery! And later on I'm going to add a feature where the pictures are click-able and it reveals information about the picture!
+
+
+**UPDATE**
+tried to implement flip card motion component. The motion collides with Framer-Motion's <motion.div> which overrides the transition value to 'none' therefore not being able to flip correctly. 
+To solve this I've tried to set time out from the component to change the transition value using document.getElementbyClassName, this initially changed the value of transition, but framer-motion overrided this when the animation was reinitialized.
