@@ -2,6 +2,8 @@ import './App.css';
 import Card from './components/card';
 
 
+
+
 function App() {
   const styles = {
     pin_container: {
@@ -20,6 +22,7 @@ function App() {
 }
   return (
     <div className='pinContainer' style={styles.pin_container}>
+    
       <Card size="small" src="/Photos/Conwy_1.jpeg"/>
       <Card size="medium" src="/Photos/Conwy_2.jpeg"/>
       <Card size="large" src="/Photos/Conwy_3.jpeg"/>
@@ -54,6 +57,7 @@ function App() {
       <Card size="small" src="/Photos/Conwy_32.jpeg"/>
       <Card size="small" src="/Photos/Conwy_33.jpeg"/>
       <Card size="large" src="/Photos/Conwy_34.jpeg"/>
+      
     </div>
   );
 }

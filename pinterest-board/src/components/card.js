@@ -1,13 +1,17 @@
 import React from 'react'
 
-import {motion, useAnimation} from "framer-motion"
+
+import {motion, transform, useAnimation} from "framer-motion"
 import { useEffect } from 'react'
 import { useInView } from 'react-intersection-observer'
+import './card.css'
 
 const cardVariants = {
-    visible : {opacity:1, scale: 1, transition: {duration: 1}},
+    visible : {opacity:1, scale: 1},
     hidden: {opacity: 0, scale: 0},
 }
+
+
 
 
 
@@ -15,7 +19,8 @@ function Card(props) {
     const control= useAnimation();
     const [ref, inView] = useInView();
 
-
+ 
+    
     
 
     useEffect(()=>{
@@ -45,7 +50,6 @@ function Card(props) {
     }
 
 
-
     return (
         
             <motion.div 
@@ -59,8 +63,19 @@ function Card(props) {
                 ...styles.card,
                 ...styles[props.size]
             }}>
-            <img src={props.src} alt='places' ></img>
+
+
+            <div className='cardFront'>
+                <img src={props.src} alt='places' ></img>
+            </div>
+
+            <div className='cardBack'>
+                    <h1>Back</h1>
+            </div>
+            
+            
             </motion.div>
+            
  
     )
 }
