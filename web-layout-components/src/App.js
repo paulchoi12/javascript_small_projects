@@ -1,13 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AllText from './Components/ContentPage/AllText';
+import DoublePicture from './Components/ContentPage/DoublePicture';
+import SinglePictureText from './Components/ContentPage/SinglePictureText';
 import HeroPage from './Components/HeroPage/HeroPage';
-import ContentPage from './Components/ContentPage/ContentPage';
+
 
 function App() {
   return (
     <div className="App">
      <HeroPage/>
-     <ContentPage/>
+     <DoublePicture/>
+     <SinglePictureText/>
+     <AllText/>
     </div>
   );
 }
