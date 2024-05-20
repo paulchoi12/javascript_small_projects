@@ -1,13 +1,13 @@
 import React from 'react'
 import '../../../App.css'
 import CambridgeHero from './CambridgeHero'
-import CambridgeDescription from './CambridgeDescription'
+import CambridgeGallery from './CambridgeGallery'
 
 function Cambridge() {
   return (
     <div>
       <CambridgeHero></CambridgeHero>
-      <CambridgeDescription></CambridgeDescription>
+      <CambridgeGallery></CambridgeGallery>
     </div> 
     )
 }
