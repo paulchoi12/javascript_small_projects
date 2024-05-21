@@ -4,9 +4,8 @@ import './CambridgeGallery.css'
 function CambridgeGallery() {
     const styles = {
         pin_container: {
-            margin: 0,
-            padding: 0,
-            width: '90vw',
+            margin: '30px 0px',
+            width: '100vw',
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fill, 250px)',
             gridAutoRows: '10px',
@@ -14,6 +13,7 @@ function CambridgeGallery() {
             left: '50%',
             transform: 'translateX(-50%)',
             justifyContent: 'center',
+            background: '#EEEEEE'
             
         }
     }
